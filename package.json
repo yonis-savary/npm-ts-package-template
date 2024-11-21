@@ -1,0 +1,27 @@
+{
+  "name": "@your-scope/your-package-name",
+  "description": "your description",
+  "author": "your name",
+  "keywords": [],
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonis-savary/npm-ts-package-template.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yonis-savary/npm-ts-package-template/issues"
+  },
+  "homepage": "https://github.com/yonis-savary/npm-ts-package-template#readme",
+  "devDependencies": {
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  }
+}
