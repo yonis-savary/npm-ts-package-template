@@ -13,3 +13,18 @@ Elements to edit in this template
 - `src` files
 - `package.json` package informations
 - This file (README.md)
+
+
+## Usage
+
+Build package dist files
+
+```bash
+npm run build
+```
+
+Test package
+
+```bash
+npm test
+```
